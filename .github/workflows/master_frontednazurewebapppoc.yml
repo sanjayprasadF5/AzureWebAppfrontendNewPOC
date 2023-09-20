@@ -60,4 +60,4 @@ jobs:
           app-name: 'frontednAzureWebAppPOC'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9A7D2D9A56644C1786034776191A9F5A }}
-          package: .
+          package: release.zip
