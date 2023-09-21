@@ -14,6 +14,7 @@ const ApiCall = () => {
     setError(null);
 
     try {
+      // Axios
       const response = await axios.get(
         "https://azurewebappbackend.azurewebsites.net/api/GetData?code=kAviPABi77AbHwY1xu1WNYWsTOn5vtkiFkks56oLlCyTAzFuUgp8Pw=="
       );
