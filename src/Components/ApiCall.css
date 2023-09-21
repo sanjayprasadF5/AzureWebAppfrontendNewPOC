@@ -1,0 +1,58 @@
+/* ApiCall.css */
+
+/* Container styles */
+.ApiCall-container {
+  text-align: center;
+  margin: 1rem;
+}
+
+/* Button styles */
+.ApiCall-button {
+  background-color: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.ApiCall-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.ApiCall-button:hover {
+  background-color: #0056b3;
+}
+
+/* Error message styles */
+.ApiCall-error {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+/* Response section styles */
+.ApiCall-response {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  text-align: left;
+}
+
+.ApiCall-response h2 {
+  color: #007bff; /* Change the color of the heading */
+  font-size: 1.2rem; /* Change the font size of the heading */
+}
+
+/* Preformatted text inside the response box */
+.ApiCall-response pre {
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+
+/* Customize any other response-specific styles here */
